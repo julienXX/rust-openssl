@@ -222,6 +222,7 @@ See rust-openssl README for more information:
             (3, 1, _) => ('3', '1', 'x'),
             (3, 2, 0) => ('3', '2', '0'),
             (3, 2, _) => ('3', '2', 'x'),
+            (3, 3, _) => ('3', '3', 'x'),
             _ => version_error(),
         };
 
